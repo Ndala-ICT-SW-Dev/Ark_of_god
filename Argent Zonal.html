@@ -1,0 +1,237 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Argent Branch.css">
+    <link rel="stylesheet" href="BranchCss.css">
+    <link rel="stylesheet" href="index.html">
+    <title>Argent branch</title>
+    <script>
+        function showDrawer() {
+            var button = document.getElementById("drawer");
+
+            if (button.style.display === 'none') {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="drawer">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="Ministry.html">Ministry</a></li>
+            <li><a href="Leadership.html">Leadership</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#donations">Donations</a></li>
+            <li><a href="#vision">Our Vision</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#branches">Branches</a></li>
+            <li><a href="#update">Update</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    </div>
+
+    <!-- Section 1: Header -->
+    <section class="header">
+        <div class="burger-menu" onclick="showDrawer()" id="menu">&#9776;</div>
+        <nav>
+            <img src="./Logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About us.html">ABOUT US</a></li>
+                <li><a href="Ministry.html">MINISTRY</a></li>
+                <li><a href="Leadership.html">LEADERSHIP</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">&#x22EE;</a>
+                    <div class="dropdown-content">
+                        <a href="#vision">OUR VISION</a>
+                        <a href="#videos">VIDEOS</a>
+                        <a href="#branches">BRANCHES</a>
+                        <a href="#donations">DONATIONS</a>
+                        <a href="#update">UPDATE</a>
+                        <a href="#events">EVENTS</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <video autoplay muted loop class="video-backround">
+            <source src="white_backgound2.mp4" type="video/mp4">
+        </video>
+
+        <!-- Section 2: About Us -->
+        <section id="about" class="about">
+            <h2>ARGENT ZONAL</h2>
+            <div class="about-container ">
+                <div class="about-item">
+                    <div class="leadership-item">
+                        <img src="./pastor face 2.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">BRANCH LEADER
+                            </h4>
+                            <p class="card-text">Sphiwe Motau</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="about-item from-fit">
+                    <form>
+                        <!-- Add contact form with name, surname, email, and message fields here -->
+                        <h3>Send us a message</h3>
+                        <div class="inputs-container">
+                            <div class="inputs">
+                                <label for="name" class="form-label">Name :</label>
+                                <input type="text" class="form-control" id="name">
+
+                                <label for="surname" class="form-label">Surname :</label>
+                                <input type="text" class="form-control" id="surname">
+
+                                <label for="email" class="form-label">Email :</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="message">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="button submitForm">SEND </button>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+        <footer>
+            <div class="links">
+                <div class="footlast">
+                    <h4>
+                        <p>MEDIA LINKS</p>
+                    </h4>
+                    <h5><a href="https://www.youtube.com/@devonarkofgod7280" class="fa fa-youtube"
+                            style="margin-bottom: 5%;"> devon_Arkofgod</a> </h5>
+                    <h5><a href="https://www.instagram.com/ark_of_god_church/" class="fa fa-instagram"
+                            style="margin-bottom: 5%;"> devon_Arkofgod</a> </h5>
+                    <h5><a href="https://web.facebook.com/www.AGC.Devon" class="fa fa-facebook"
+                            style="margin-bottom: 5%;">
+                            devon_Arkofgod</a> </h5>
+                    <h5><a href="#" class="fa fa-twitter" style="margin-bottom: 5%;"> devon_Arkofgod</a> </h5>
+                </div>
+
+                <div class="footlast">
+                    <h4>
+                        <p>PAGES</p>
+                    </h4>
+                    <h5>
+                        <a href="About us.html">About us</a>
+                    </h5>
+                    <h5>
+                        <a href="Leadership.html">Leadership</a>
+                    </h5>
+                    <h5>
+                        <a href="Gallery.html">Gallery</a>
+                    </h5>
+                    <h5>
+                        <a href="Ministry.html">Ministrity</a>
+                    </h5>
+                    <h5>
+                        <a>Branch</a>
+                    </h5>
+                </div>
+                <div class="footlast">
+                    <h4>
+                        <p>Location</p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe
+                                    src="https://maps.google.com/maps?q=devon%20liabra&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                    frameborder="0" scrolling="no" style="width: 340px; height: 380px;"></iframe>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        height: 50%;
+                                        width: 50%;
+                                        margin-left: 5rem;
+                                        background: rgb(201, 226, 201);
+                                    }
+
+                                    .maprouter a {
+                                        color: #fff !important;
+                                        position: absolute !important;
+                                        top: 0 !important;
+                                        z-index: 0 !important;
+                                    }
+                                </style><a href="https://blooketjoin.org/blooket-play/">blooket play</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        height: 200px;
+                                        width: 200px
+                                    }
+
+                                    .gmap_canvas iframe {
+                                        position: relative;
+                                        z-index: 2
+                                    }
+
+                                    .mapouter {
+                                        position: relative;
+                                        height: 50%;
+                                        width: 50%;
+                                        margin-left: 5rem;
+                                        background: rgb(201, 226, 201);
+                                    }
+
+                                    .maprouter a {
+                                        color: #fff !important;
+                                        position: absolute !important;
+                                        top: 0 !important;
+                                        z-index: 0 !important;
+                                    }
+                                </style><a href="https://blooketjoin.org/blooket-play/">blooket play</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        height: 200px;
+                                        width: 200px
+                                    }
+
+                                    .gmap_canvas iframe {
+                                        position: relative;
+                                        z-index: 2
+                                    }
+                                </style>
+                            </div>
+                        </div>
+
+                    </h4>
+
+
+                </div>
+            </div>
+            <div class="footlast legal">
+                <h5>@Rights reserved</h5>
+            </div>
+        </footer>
+</body>
+
+</html>

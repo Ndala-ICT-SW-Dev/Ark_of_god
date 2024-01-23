@@ -1,0 +1,427 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Manuale:wght@300;400;700&display=swap");
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  font-family: "Manuale", serif !important;
+  color: rgba(178, 135, 13, 1);
+}
+h3 {
+  font-size: 2.5vw;
+}
+h4 {
+  font-size: 2vw;
+}
+h5 {
+  font-size: 1.5vw;
+}
+
+button {
+  cursor: pointer;
+}
+h6 {
+  font-size: 1.5rem;
+}
+
+/* Navigation Drawer */
+#drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  /* Hide the drawer by default */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+#drawer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#drawer li {
+  padding: 15px;
+  text-align: center;
+  display: block;
+}
+
+#drawer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+/* Burger Menu Button */
+.burger-menu {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 15px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  background-color: rgba(178, 135, 13, 1);
+  border-radius: 0.5rem;
+  display: none;
+}
+
+/* Section 1: Header */
+.header {
+  /* Add your background image URL */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  padding-bottom: 0;
+  margin: 0;
+}
+.video-backround {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+/*navigation*/
+.logo {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 10px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(178, 135, 13, 1);
+}
+
+/* Section 2: About Us */
+
+h2 {
+  font-weight: 700;
+  color: rgba(178, 135, 13, 1);
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.77);
+  font-size: 3vw;
+}
+h5 {
+  color: rgba(178, 135, 13, 1);
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  color: rgba(178, 135, 13, 1);
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.49);
+  margin-top: 1rem;
+  box-shadow: 1px 1px 1px 1px rgb(176, 170, 170);
+  width: 40%;
+  height: 34rem;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.5vw;
+  padding: 0.2%;
+  color: rgba(178, 135, 13, 1);
+}
+
+.button {
+  margin: auto;
+  color: white;
+  display: block;
+  background-color: rgba(178, 135, 13, 1);
+  border-style: solid;
+  border-color: rgba(178, 135, 13, 1);
+  padding: 1% 2.75% 1% 2.75%;
+  box-shadow: 3px 0.5px rgba(178, 135, 13, 1);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1vw;
+  width: fit-content;
+}
+.button-margin {
+  width: fit-content;
+  margin-bottom: 2rem;
+  margin-top: 3%;
+}
+
+/* Section 3: Ministry */
+.ministry {
+  color: rgba(178, 135, 13, 1);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.ministry-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ministry-item {
+  background-image: url(./ministry\ backround\ 1.png);
+  box-shadow: 3px 3px 3px rgba(178, 135, 13, 1);
+  text-align: center;
+}
+.ministry-button {
+  margin-top: 5%;
+}
+
+.ministry-item2 {
+  background-color: rgb(237, 243, 248);
+  box-shadow: 3px 3px 3px 3px rgba(178, 135, 13, 1);
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 2rem;
+}
+.ministry-item3 {
+  background-color: aliceblue;
+  box-shadow: 3px 3px 3px 3px rgba(178, 135, 13, 1);
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 2rem;
+  margin-top: 6rem;
+}
+.ministry-item4 {
+  background-color: aliceblue;
+  box-shadow: 3px 3px 3px 3px rgba(178, 135, 13, 1);
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 2rem;
+  margin-top: 6rem;
+}
+
+.footlast {
+  width: 30%;
+  text-align: center;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+  background-image: url("footerbackground.png");
+  background-size: cover;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+.legal {
+  width: 100%;
+  background-color: goldenrod;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container,
+  .row2,
+  .ministry-container,
+  .leadership-container,
+  .donations-container,
+  .vision-container,
+  .links,
+  .inputs-container {
+    flex-direction: column;
+  }
+  .header {
+    background-image: none;
+  }
+
+  .inputs-container div {
+    width: 80%;
+  }
+  .enquire-btn {
+    margin-top: -90%;
+    display: none;
+  }
+  p {
+    font-size: 5vw;
+    color: rgba(178, 135, 13, 1);
+  }
+  h2 {
+    font-weight: 700;
+    color: rgba(178, 135, 13, 1);
+    font-size: 4vh;
+  }
+  h3 {
+    font-size: 4vh;
+  }
+  h4 {
+    font-size: 2vh;
+  }
+  h5 {
+    font-size: 2vh;
+    color: rgba(178, 135, 13, 1);
+  }
+  textarea {
+    margin-bottom: 2rem;
+  }
+
+  .leadership-item {
+    width: 80%;
+  }
+
+  .welcome-text {
+    font-size: 1.5em;
+  }
+  .ministry-item {
+    width: 80%;
+    margin: auto;
+  }
+  .ministry-item2 {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 3rem;
+    font-size: 3vw;
+  }
+  .ministry-item3 {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 3rem;
+    font-size: 3vw;
+  }
+  .ministry-item4 {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 3rem;
+    font-size: 3vw;
+  }
+  #drawer {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    /* Hide the regular navigation for small screens */
+  }
+
+  nav.show {
+    display: block;
+    /* Show the regular navigation when the drawer is open */
+  }
+  #vid-item1 {
+    margin: auto;
+    height: 7rem;
+  }
+  #vid-item2 {
+    height: 7rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .header {
+    height: 50vh;
+  }
+
+  .header-welcome-text {
+    top: 25%;
+    font-size: 1.5rem;
+  }
+  .button1 {
+    position: relative;
+    margin-top: -1rem;
+    border-style: solid;
+    border: 2px;
+    border-color: white;
+  }
+  .gold-cross {
+    height: 10%;
+    width: 10%;
+    left: 45%;
+  }
+  .about-item {
+    margin: auto;
+    margin-top: 1rem;
+    height: fit-content;
+  }
+  .dona-text3 {
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .event-item {
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .footlast {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  .legal {
+    width: 100%;
+  }
+  .ministry-item2 {
+    height: fit-content;
+    width: fit-content;
+    display: inline;
+    font-size: 3vw;
+  }
+  .ministry-item3 {
+    height: fit-content;
+    width: fit-content;
+    display: inline;
+    font-size: 3vw;
+  }
+  .ministry-item4 {
+    height: fit-content;
+    width: fit-content;
+    display: inline;
+    font-size: 3vw;
+  }
+  .button {
+    font-size: 3vw;
+  }
+}
+
+/**/
+@media (max-width: 768px) {
+  .ministryCommon {
+    margin: auto;
+    height: fit-content;
+  }
+}

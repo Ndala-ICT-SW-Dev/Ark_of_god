@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleChurch.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Church Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./Logo.jpeg" alt="Church Logo">
+        </div>
+        <form id="myForm" action="" onsubmit="return submitForm(event)">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-member">MEMBERSHIP FORM</h1>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="surname">Surname:</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="phone">Phone No:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="race">Race:</label>
+                        <input type="race" id="race" name="race" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="address">Physical Address:</label>
+                        <input type="address" id="address" name="address" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="city">City:</label>
+                        <input type="city" id="city" name="city" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="code">Code:</label>
+                        <input type="code" id="code" name="code" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <select name="Branch" class="form-select form-select-lg mb-3"
+                            aria-label=".form-select-lg example" id="Branch" required>
+                            <option selected disabled>Please Select Branch</option>
+                            <option value="1">GGC – Leslie : Greater Grace Church</option>
+                            <option value="2">OGC – Dryden : One God Church</option>
+                            <option value="3">HCC – Kinross : Hillside City Church</option>
+                            <option value="4">HGC – Endicott : Hyper Grace Church </option>
+                            <option value="5">GRC – Savanna : Glorious Church</option>
+                            <option value="6">CJC – Vukuzenzele : Christ Jesus Church</option>
+                            <option value="7">GCC – Argent (Gracious Church)</option>
+                            <option value="8">CAC – Emba (Christ Ambassador Church)</option>
+                            <option value="9">ATEC – Waaikraal (Across-the-earth- Church)</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-12">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        function submitForm(e) {
+            e.preventDefault();
+            // Get form data
+            var formData = {
+                name: $("#name").val(),
+                surname: $("#surname").val(),
+                email: $("#email").val(),
+                phone: $("#phone").val(),
+                address: $("#address").val(),
+                city: $("#city").val(),
+                code: $("#code").val(),
+                Branch: $("#Branch").val()
+            };
+            document.getElementById("myForm").reset();
+
+            // Send AJAX request
+            $.post("https://devonarkofgod.org/addmember.php", JSON.stringify(formData), function (response) {
+                alert("Thank you");
+            }, "json")
+                .fail(function (error) {
+                    console.error(error);
+                    // Handle error, if needed
+                });
+
+            return false;
+        }
+    </script>
+</body>
+
+</html>
