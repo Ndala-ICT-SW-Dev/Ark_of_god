@@ -157,7 +157,11 @@ nav li {
 
 a {
   text-decoration: none;
+  font-size: 4vh;
   color: rgba(178, 135, 13, 1);
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .header-welcome-text {
@@ -283,7 +287,7 @@ p {
 }
 
 .ministry-item {
-  background-image: url(./ministry\ backround\ 1.png);
+  background-image: url(../images/ministry\ backround\ 1.png);
   box-shadow: 3px 3px 3px rgb(161, 109, 11);
   text-align: center;
 }
@@ -534,7 +538,7 @@ iframe {
 
 /* Section 9: Branches */
 .branches {
-  background-image: url("./branch\ background2\ 1.png");
+  background-image: url("../images/branch\ background2\ 1.png");
   background-size: cover;
   padding: 50px 0;
   text-align: center;
@@ -663,7 +667,7 @@ footer {
   padding: 0;
   width: 100%;
   height: fit-content;
-  background-image: url("footerbackground.png");
+  background-image: url("../images/footerbackground.png");
   background-size: cover;
 }
 .links {

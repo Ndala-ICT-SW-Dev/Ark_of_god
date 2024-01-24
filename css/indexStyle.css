@@ -4,7 +4,7 @@
   margin: 0;
 }
 .header {
-  background-image: url("./theme 6.jpg");
+  background-image: url("./images/theme 6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -162,16 +162,16 @@ button {
   width: 100%;
 }
 #min-one {
-  background-image: url("./ministry\ backround\ 1.png");
+  background-image: url("./images/ministry\ backround\ 1.png");
   box-shadow: 3px 3px 3px rgb(161, 109, 11);
   gap: 10%;
 }
 #min-two {
-  background-image: url("./ministry\ backround\ 1.png");
+  background-image: url("./images/ministry\ backround\ 1.png");
   box-shadow: 3px 3px 3px rgb(161, 109, 11);
 }
 #min-three {
-  background-image: url("./ministry\ backround\ 1.png");
+  background-image: url("./images/ministry\ backround\ 1.png");
   box-shadow: 3px 3px 3px rgb(161, 109, 11);
 }
 .lead-text h1 {
@@ -823,7 +823,7 @@ button {
   color: rgba(178, 135, 13, 1);
 }
 #branch-cov {
-  background-image: url(./branch\ background2\ 1.png);
+  background-image: url(./images/branch\ background2\ 1.png);
   width: 100%;
   background-size: cover;
 }

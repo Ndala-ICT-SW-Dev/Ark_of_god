@@ -34,7 +34,7 @@ h6 {
 
 /* Navigation Drawer */
 .dropdown .dropbtn {
-  font-size: 3vh;
+  font-size: 4vh;
   border: none;
   width: 3px;
   outline: none;
@@ -117,6 +117,9 @@ h6 {
   display: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 /* Section 1: Header */
 .header {
   /* Add your background image URL */
@@ -187,7 +190,7 @@ a {
 
 /* Section 2: About Us */
 .about {
-  background-image: url("about\ back\ round\ 1.png");
+  background-image: url("../images/about\ back\ round\ 1.png");
   background-size: cover;
   padding: 50px 0;
   text-align: center;
@@ -389,12 +392,17 @@ footer {
   padding: 0;
   width: 100%;
   height: fit-content;
-  background-image: url("footerbackground.png");
+  background-image: url("../images/footerbackground.png");
   background-size: cover;
 }
 .links {
   display: flex;
   justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: rgba(178, 135, 13, 1);
+  font-size: 2vw;
 }
 .legal {
   width: 100%;

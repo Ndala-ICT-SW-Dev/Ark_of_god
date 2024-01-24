@@ -122,7 +122,7 @@ h6 {
 
 /* Section 1: Header */
 .header {
-  background-image: url("./final_background\ .svg");
+  background-image: url("../images/final_background\ .svg");
   /* Add your background image URL */
   background-size: cover;
   color: white;
@@ -292,7 +292,7 @@ a:hover {
 
 /* Section 2: About Us */
 .about {
-  background-image: url("about\ back\ round\ 1.png");
+  background-image: url("../images/about\ back\ round\ 1.png");
   background-size: cover;
   padding: 50px 0;
   text-align: center;
@@ -374,8 +374,9 @@ p {
   justify-content: space-around;
 }
 
+
 .ministry-item {
-  background-image: url(./ministry\ backround\ 1.png);
+  background-image: url('../images/ministry\ backround\ 1.png');
   box-shadow: 3px 3px 3px rgba(178, 135, 13, 1);
   text-align: center;
   width: 100%;
@@ -699,7 +700,7 @@ iframe {
 
 /* Section 9: Branches */
 .branches {
-  background-image: url("./branch\ background2\ 1.png");
+  background-image: url("../images/branch\ background2\ 1.png");
   background-size: cover;
   padding: 50px 0;
   text-align: center;
@@ -852,7 +853,7 @@ footer {
   padding: 0;
   width: 100%;
   height: fit-content;
-  background-image: url("footerbackground.png");
+  background-image: url("../images/footerbackground.png");
   background-size: cover;
 }
 .links {
@@ -932,6 +933,16 @@ footer {
   }
   textarea {
     margin-bottom: 2rem;
+  }
+  footer {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-image: url("../images/footerbackground.png");
+    background-size: cover;
+  }
+  p{
+    display: flex;
   }
 
   .leadership-item {

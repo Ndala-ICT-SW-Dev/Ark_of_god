@@ -470,7 +470,7 @@ footer {
   padding: 0;
   width: 100%;
   height: fit-content;
-  background-image: url("footerbackground.png");
+  background-image: url("../images/footerbackground.png");
   background-size: cover;
 }
 .links {

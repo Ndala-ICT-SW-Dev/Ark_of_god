@@ -292,7 +292,7 @@ a:hover {
 
 /* Section 2: About Us */
 .about {
-  background-image: url("about\ back\ round\ 1.png");
+  background-image: url("../images/about\ back\ round\ 1.png");
   background-size: cover;
   padding: 50px 0;
   text-align: center;
@@ -340,7 +340,11 @@ p {
   margin-bottom: -1rem;
   width: fit-content;
 }
-
+a {
+  text-decoration: none;
+  color: rgba(178, 135, 13, 1);
+  font-size: 2vw;
+}
 .button {
   margin: auto;
   color: white;
@@ -701,7 +705,7 @@ iframe {
 
 /* Section 9: Branches */
 .branches {
-  background-image: url("./branch\ background2\ 1.png");
+  background-image: url("../images/branch\ background2\ 1.png");
   background-size: cover;
   padding: 50px 0;
   text-align: center;
@@ -854,7 +858,7 @@ footer {
   padding: 0;
   width: 100%;
   height: fit-content;
-  background-image: url("footerbackground.png");
+  background-image: url("../images/footerbackground.png");
   background-size: cover;
 }
 .links {

@@ -123,6 +123,10 @@ nav li {
 a {
   text-decoration: none;
   color: rgba(178, 135, 13, 1);
+  font-size: 2vw;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 /* Section 2: About Us */
@@ -195,7 +199,7 @@ p {
 }
 
 .ministry-item {
-  background-image: url(./ministry\ backround\ 1.png);
+  background-image: url(../images/ministry\ backround\ 1.png);
   box-shadow: 3px 3px 3px rgba(178, 135, 13, 1);
   text-align: center;
 }
@@ -239,7 +243,7 @@ footer {
   padding: 0;
   width: 100%;
   height: fit-content;
-  background-image: url("footerbackground.png");
+  background-image: url("../images/footerbackground.png");
   background-size: cover;
 }
 .links {
