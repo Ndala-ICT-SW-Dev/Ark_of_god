@@ -100,6 +100,44 @@ h6 {
   z-index: -1;
 }
 /*navigation*/
+
+.dropdown .dropbtn {
+  font-size: 2vw;
+  border: none;
+  width: 3px;
+  outline: none;
+  color: 178, 135, 13, 1;
+  padding: 2px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  display: flex;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: 178, 135, 13, 1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: 178, 135, 13, 1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  display: flex;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .logo {
   height: 100px;
   width: 100px;
@@ -113,6 +151,8 @@ nav ul {
   margin-top: 12px;
   display: flex;
   justify-content: center;
+  width: 100%;
+  flex-direction: row;
 }
 
 nav li {
@@ -124,6 +164,9 @@ a {
   text-decoration: none;
   color: rgba(178, 135, 13, 1);
   font-size: 2vw;
+}
+a:hover {
+  text-decoration: underline;
 }
 a:hover {
   text-decoration: underline;
@@ -428,4 +471,19 @@ footer {
     margin: auto;
     height: fit-content;
   }
+  .footlast {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+  }
+  .legal {
+    width: 100%;
+  }
+  .vis-text {
+    margin-bottom: 2rem;
+    width: 15rem;
+}
+.legal{
+  display: none;
+}
 }
