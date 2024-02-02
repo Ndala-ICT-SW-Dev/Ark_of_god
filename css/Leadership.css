@@ -34,8 +34,9 @@ h6 {
 
 /* Navigation Drawer */
 .dropdown .dropbtn {
-  font-size: 4vh;
+  font-size: 1.5vw;
   border: none;
+  z-index: 999px;
   width: 3px;
   outline: none;
   color: 178, 135, 13, 1;
@@ -174,6 +175,7 @@ nav li {
 
 a {
   text-decoration: none;
+  font-size: 1.5vw;
   color: rgba(178, 135, 13, 1);
 }
 
@@ -398,11 +400,6 @@ footer {
 .links {
   display: flex;
   justify-content: space-around;
-}
-a {
-  text-decoration: none;
-  color: rgba(178, 135, 13, 1);
-  font-size: 2vw;
 }
 .legal {
   width: 100%;

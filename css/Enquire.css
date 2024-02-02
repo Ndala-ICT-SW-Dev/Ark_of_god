@@ -135,9 +135,10 @@ h6 {
 /*navigation*/
 
 .dropdown .dropbtn {
-  font-size: 2vw;
+  font-size: 1.5vw;
   border: none;
   width: 3px;
+  z-index: 999;
   outline: none;
   color: 178, 135, 13, 1;
   padding: 2px 16px;
@@ -196,7 +197,7 @@ nav li {
 a {
   text-decoration: none;
   color: rgba(178, 135, 13, 1);
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 a:hover {
   text-decoration: underline;
