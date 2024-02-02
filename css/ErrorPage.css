@@ -299,10 +299,10 @@ a:hover {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 1000;
   color: rgba(178, 135, 13, 1);
   text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.77);
-  font-size: 3vw;
+  font-size: 6vw;
 }
 
 .about-container {
@@ -337,7 +337,7 @@ p {
   box-shadow: 3px 0.5px rgba(178, 135, 13, 1);
   border-radius: 0.5rem;
   font-size: 1vw;
-  margin-bottom: -1rem;
+  margin-bottom: -10rem;
   width: fit-content;
 }
 
@@ -581,113 +581,6 @@ form h3 {
   justify-content: space-around;
 }
 
-.dona-text3 {
-  margin-top: 3rem;
-  border: 1px solid;
-  border-color: rgba(178, 135, 13, 1);
-  width: 40%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: white;
-  font-size: 2vw;
-  box-shadow: 1px 1px 1px 1px rgba(178, 135, 13, 1);
-}
-
-#dona-text4 {
-  width: 75%;
-}
-
-/* Add styles for donation boxes */
-
-/* Section 7: Our Vision */
-.vision {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.row1 {
-  width: 100%;
-}
-.video-btn {
-  margin: auto;
-  color: white;
-  display: block;
-  background-color: rgba(178, 135, 13, 1);
-  border-style: solid;
-  border-color: rgba(178, 135, 13, 1);
-  padding: 1% 2.75% 1% 2.75%;
-  box-shadow: 3px 0.5px rgba(178, 135, 13, 1);
-  border-radius: 0.5rem;
-  font-size: 1vw;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  width: fit-content;
-}
-
-.vis-text {
-  box-shadow: rgb(176, 170, 170) 1px 1px 1px 1px;
-  width: 40%;
-  padding: 1rem;
-  height: fit-content;
-  margin: auto;
-  backdrop-filter: blur(5px);
-  background-color: rgb(243, 243, 243);
-}
-
-.vis-text2 {
-  color: rgb(178, 135, 13);
-  font-size: 2vw;
-}
-
-.row2 {
-  display: flex;
-  padding: 3rem;
-}
-/* Add styles for vision boxes with gold buttons */
-
-/* Section 8: Videos */
-.videos {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.video-container {
-  /* Add styles for video elements */
-  width: 100%;
-  height: 100%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.vid-item {
-  margin-top: 1rem;
-  box-shadow: 1px 1px 1px 1px rgb(176, 170, 170);
-  width: 35%;
-  height: 25rem;
-  margin-left: 40%;
-  border-radius: 1rem;
-  padding: 2rem;
-}
-
-#vid-item1 {
-  margin-left: 25%;
-  height: 25rem;
-  width: 35%;
-}
-
-#vid-item2 {
-  margin-top: -5rem;
-  margin-left: 47.5%;
-}
-
-.vid {
-  --bs-aspect-ratio: calc(9 / 16 * 100%);
-  position: relative;
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 
 iframe {
   width: 100%;
@@ -698,144 +591,11 @@ iframe {
   margin: 2rem;
 }
 
-/* Section 9: Branches */
-.branches {
-  background-image: url("../images/branch\ background2\ 1.png");
-  background-size: cover;
-  padding: 50px 0;
-  text-align: center;
+.font-error{
+    font-weight: 800;
 }
 
-.link-opacity-10-hover {
-  color: rgba(178, 135, 13, 1);
-  margin-left: 400px;
-  margin: 2rem;
-  cursor: pointer;
-}
 
-.link-opacity-10-hover a {
-  font-size: 2vw;
-  text-decoration: underline;
-}
-
-/*Section 10 : Updates*/
-.updates {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.updates h2 {
-  margin-bottom: 4rem;
-}
-
-.updates-container {
-  color: white;
-  text-align: left;
-  width: fit-content;
-}
-
-#update-text1 {
-  background-color: rgba(178, 135, 13, 0.76);
-  width: 80%;
-  margin: auto;
-  padding: 1rem;
-  border-radius: 1rem;
-  height: fit-content;
-  margin-bottom: 3rem;
-}
-
-#update-text2 {
-  background-color: rgba(178, 135, 13, 1);
-  margin-top: -3rem;
-  padding: 1rem;
-  margin-left: 2rem;
-  margin-bottom: 0;
-  width: fit-content;
-  height: fit-content;
-  border-radius: 1rem;
-}
-
-#update-text2 h5 {
-  margin: 0;
-  padding: 0;
-  font-size: 1.5vw;
-}
-.update-text7 {
-  display: flex;
-  font-size: 4vh;
-}
-.update-text8 {
-  display: flex;
-  font-size: 4vh;
-}
-
-#quote {
-  font-size: 1em;
-}
-
-#qoute i {
-  font-size: 0.875em;
-  color: #6c757d;
-}
-
-#update-table-container {
-  background-color: rgba(178, 135, 13, 0.76);
-  height: fit-content;
-  margin: auto;
-  margin-bottom: 2rem;
-  width: 80%;
-  border-radius: 1rem;
-}
-
-table {
-  width: 80%;
-  margin: auto;
-  height: calc(94%);
-}
-
-#notes-label {
-  background-color: rgba(178, 135, 13, 1);
-  padding: 1rem;
-  margin-bottom: -1rem;
-  margin-left: 15%;
-  width: fit-content;
-  height: fit-content;
-  border-radius: 1rem;
-}
-
-#notes-label h4 {
-  margin: 0;
-  padding: 0;
-}
-
-#update-text9 {
-  border-left: 4px solid #ccc;
-  text-align: center;
-  font-size: 3vh;
-}
-
-#update-table td {
-  text-align: center;
-}
-
-/* Section 12: Events */
-.events {
-  padding: 50px 0;
-  text-align: center;
-}
-.event-item {
-  margin-top: -4rem;
-  box-shadow: 1px 1px 1px 1px rgba(178, 135, 13, 1);
-  background-color: white;
-  padding: 1rem;
-  width: 30%;
-  height: fit-content;
-  margin-left: 2rem;
-  border-radius: 1rem;
-}
-.event-item1 {
-  margin-top: 2rem;
-}
 .footlast {
   width: 30%;
   text-align: center;
