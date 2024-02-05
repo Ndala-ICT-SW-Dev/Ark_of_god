@@ -281,11 +281,11 @@ a:hover {
 
 .header-welcome-text {
   position: absolute;
-  font-weight: 700;
+  font-weight: 300;
   color: rgba(178, 135, 13, 1);
   text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.77);
   font-size: 2.3vw;
-  top: 46%;
+  top: 30%;
   left: 48%;
   transform: translate(-50%, -50%);
 }
@@ -337,7 +337,6 @@ p {
   box-shadow: 3px 0.5px rgba(178, 135, 13, 1);
   border-radius: 0.5rem;
   font-size: 1vw;
-  margin-bottom: -10rem;
   width: fit-content;
 }
 
@@ -420,18 +419,18 @@ p {
 .enquire-btn {
   position: absolute;
   color: white;
-  width: 6rem;
-  margin-bottom: 45vh;
+  width: 7rem;
+  margin-bottom: 4vh;
   background-color: rgba(178, 135, 13, 1);
   stroke: rgba(178, 135, 13, 1);
   border-color: rgb(189, 128, 18);
-  top: 85%;
-  left: 3%;
+  top: 20rem;
+  left: 40%;
   box-shadow: 3px 0.5px rgba(178, 135, 13, 1);
   border-radius: 8px;
   padding-top: 1%;
   padding-bottom: 1%;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 /* Section 4: Leadership */
 .leadership {
