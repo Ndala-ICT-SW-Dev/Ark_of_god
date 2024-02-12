@@ -255,27 +255,29 @@ p {
   background-color: rgb(237, 243, 248);
   box-shadow: 3px 3px 3px 3px rgba(178, 135, 13, 1);
   text-align: center;
-  height: fit-content;
   width: fit-content;
   border-radius: 2rem;
+  margin: 40px;
 }
 .ministry-item3 {
   background-color: aliceblue;
   box-shadow: 3px 3px 3px 3px rgba(178, 135, 13, 1);
   text-align: center;
-  height: fit-content;
-  width: fit-content;
+  width:22%;
+  height: 60rem;
   border-radius: 2rem;
-  margin-top: 6rem;
+  margin: 40px;
+  margin-top: 15rem;
 }
 .ministry-item4 {
   background-color: aliceblue;
   box-shadow: 3px 3px 3px 3px rgba(178, 135, 13, 1);
   text-align: center;
-  height: fit-content;
   width: fit-content;
+  height: 20%;
   border-radius: 2rem;
-  margin-top: 6rem;
+  margin: 40px;
+  margin-top: 17rem;
 }
 
 .footlast {

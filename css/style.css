@@ -520,7 +520,9 @@ form {
   height: fit-content;
   margin-top: 2rem;
 }
-
+.form-label{
+ font-size: 2vw;
+}
 .inputs-container {
   display: flex;
   width: 100%;
@@ -888,6 +890,9 @@ footer {
     font-size: 4.5vw;
   }
   p{
+    font-size: 4vw;
+  }
+  a{
     font-size: 3vw;
   }
   .close {
@@ -897,7 +902,7 @@ footer {
     font-size: 4.5vw;
   }
   h5 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .modal {
     width: fit-content;
@@ -919,6 +924,7 @@ footer {
   .inputs-container div {
     width: 80%;
   }
+
   #update-text2 h5 {
     margin: 0;
     padding: 0;
@@ -935,7 +941,7 @@ footer {
     margin-bottom: 2rem;
   }
   footer {
-    display: flex;
+    display: inline;
     width: 100%;
     height: fit-content;
     background-image: url("../images/footerbackground.png");
@@ -988,9 +994,11 @@ footer {
   #vid-item1 {
     margin: auto;
     height: 100%;
+    width: 70%;
   }
   #vid-item2 {
-    height: 7rem;
+    height: 100%;
+    width: 70%;
     margin: auto;
     margin-top: 1rem;
   }
@@ -1046,6 +1054,7 @@ footer {
   }
   .dona-text3 {
     margin: auto;
+    width: 67%;
     margin-top: 1rem;
   }
   .events-container {
@@ -1054,10 +1063,10 @@ footer {
   .event-item {
     margin: auto;
     margin-top: 1rem;
-    width: fit-content;
+    width: 15rem;
   }
   .footlast {
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin-left: auto;
   }
@@ -1071,4 +1080,24 @@ footer {
 .legal{
   display: none;
 }
+.links{
+  background-image: url("../images/footerbackground.png");
+  object-fit: cover;
+}
+.inputs-container{
+  width: 80%;
+  margin-left: 3rem;
+}
+form{
+  width: 80%;
+}
+form h3{
+  font-size: 4.5vw;
+}
+.image{
+  display: none;
+}
+.form-label{
+  font-size: 4vw;
+ }
 }

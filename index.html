@@ -10,14 +10,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Church of God</title>
     <script>
-        function showDrawer() {
-            var button = document.getElementById("drawer");
+        function toggleDrawer() {
+            const button = document.getElementById("drawer");
 
             if (button.style.display === 'none') {
                 button.style.display = 'block';
             } else {
                 button.style.display = 'none';
             }
+        }
+
+        function showDrawer(_bool) {
+            var drawer = document.getElementById("drawer");
+
+           switch(_bool){
+            case true:
+                drawer.style.display="block";
+            break;
+            case false:
+                drawer.style.display="none";
+            break;
+            default:
+                break;
+           }
         }
 
     </script>
@@ -28,25 +43,25 @@
     <video autoplay muted loop class="video-backround">
         <source src="./images/white_background2.mp4" type="video/mp4">
     </video>
-    <div id="drawer">
+    <div id="drawer" style="display: none !important;">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#sstry">Ministry</a></li>
-            <li><a href="#leadership">Leadership</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#donations">Donations</a></li>
-            <li><a href="#vision">Our Vision</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#branches">Branches</a></li>
-            <li><a href="#update">Update</a></li>
-            <li><a href="#events">Events</a></li>
+            <li onclick="showDrawer(false)"><a href="#home">Home</a></li>
+            <li onclick="showDrawer(false)"><a href="#about">About Us</a></li>
+            <li onclick="showDrawer(false)"><a href="#ministry">Ministry</a></li>
+            <li onclick="showDrawer(false)"><a href="#leadership">Leadership</a></li>
+            <li onclick="showDrawer(false)"><a href="#contacts">Contacts</a></li>
+            <li onclick="showDrawer(false)"><a href="#donations">Donations</a></li>
+            <li onclick="showDrawer(false)"><a href="#vision">Our Vision</a></li>
+            <li onclick="showDrawer(false)"><a href="#videos">Videos</a></li>
+            <li onclick="showDrawer(false)"><a href="#branches">Branches</a></li>
+            <li onclick="showDrawer(false)"><a href="#update">Update</a></li>
+            <li onclick="showDrawer(false)"><a href="#events">Events</a></li>
         </ul>
     </div>
 
     <!-- Section 1: Header -->
     <section class="header">
-        <div class="burger-menu" onclick="showDrawer()" id="menu">&#9776;</div>
+        <div class="burger-menu" onclick="toggleDrawer()" id="menu">&#9776;</div>
         <nav>
             <img src="./images/Logo.png" class="logo">
             <ul>
@@ -73,7 +88,7 @@
 
       
         <img src="./images/Gold cross 1.png" class="gold-cross" />
-        <img src="./images/final_background.png"  style="position:absolute;bottom: 0;left:0;right:0;width: 100%"/>
+        <img class="image"  src="./images/final_background.png"  style="position:absolute;bottom: 0;left:0;right:0;width: 100%"/>
    <div class="header-welcome-text">
             <h1>WELCOME TO</h1>
             <h2>ARK OF GOD</h2>
@@ -285,7 +300,7 @@
             <h3>Send us a message</h3>
             <div class="inputs-container">
                 <div class="inputs">
-                    <label for="name" style="align-content:baseline;" class="form-label">Name :</label>
+                    <label for="name" style="justify-content: end;" class="form-label">Name :</label>
                     <input type="text" class="form-control" id="name">
 
                     <label for="surname" class="form-label">Surname :</label>
