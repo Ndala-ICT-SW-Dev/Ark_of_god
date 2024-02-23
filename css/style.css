@@ -58,8 +58,11 @@ h6 {
 .dropdown-content {
   display: none;
   position: absolute;
+  background-color: rgb(131 131 131 / 78%);
   min-width: 140px;
+  box-shadow: 8px 4px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  backdrop-filter: blur;
 }
 
 .dropdown-content a {
@@ -884,7 +887,7 @@ footer {
   h2 {
     font-weight: 700;
     color: rgba(178, 135, 13, 1);
-    font-size: 4vh;
+    font-size: 5.3vw;
   }
   h3 {
     font-size: 4.5vw;
@@ -958,7 +961,9 @@ footer {
   .ministry-item {
     width: 90%;
     margin: auto;
+    display: inline;
   }
+  
   #drawer {
     display: none;
   }
@@ -978,7 +983,6 @@ footer {
     box-shadow: 3px 0.5px rgba(178, 135, 13, 1);
     border-radius: 0.5rem;
     font-size: 2vh;
-    margin-bottom: -1rem;
     margin-top: 1rem;
     width: fit-content;
   }

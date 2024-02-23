@@ -21,8 +21,11 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  background-color: rgb(131 131 131 / 78%);
   min-width: 140px;
+  box-shadow: 8px 4px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  backdrop-filter: blur;
 }
 
 .dropdown-content a {

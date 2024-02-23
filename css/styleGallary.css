@@ -159,10 +159,11 @@ button {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: 178, 135, 13, 1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(131 131 131 / 78%);
+  min-width: 140px;
+  box-shadow: 8px 4px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  backdrop-filter: blur;
 }
 .dropdown-content a {
   float: none;
@@ -248,6 +249,10 @@ h2 {
 }
 p {
   padding: 1rem;
+  font-size: 1.5vw;
+}
+h5{
+  font-size: 1.2vw;
 }
 
 .button {
